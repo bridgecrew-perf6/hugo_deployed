@@ -1,0 +1,7 @@
+baseURL = "http://hugo.deployment.9999.s3-website-us-east-1.amazonaws.com/"
+languageCode = 'en-us'
+title = 'Hugo AWS Continuous Deployment Tutorial'
+theme = 'ananke'
+[[deployment.targets]]
+name='awsbucket'
+URL = "s3://hugo.deployment.9999/?region=us-east-1"
